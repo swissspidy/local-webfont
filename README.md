@@ -4,7 +4,7 @@ Downloads webfont stylesheets and adds font-display properties.
 
 ## Usage
 
-```bash
+```
 npx local-webfont source target [<font-display>]
 ```
 
@@ -34,7 +34,7 @@ Downloaded CSS:
 
 ```css
 @font-face {
-  font-display:
+  font-display: fallback;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
