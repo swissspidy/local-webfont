@@ -1,0 +1,24 @@
+{
+  "name": "local-webfont",
+  "description": "Downloads webfont stylesheets and adds font-display properties",
+  "license": "GPL-2.0-or-later",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swissspidy/local-webfont.git"
+  },
+  "author": {
+    "name": "Pascal Birchler",
+    "url": "https://pascalbirchler.com"
+  },
+  "bin": {
+    "local-typekit": "./index.js"
+  },
+  "dependencies": {
+    "replacestream": "^4.0.3",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
