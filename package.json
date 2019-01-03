@@ -12,7 +12,7 @@
     "url": "https://pascalbirchler.com"
   },
   "bin": {
-    "local-typekit": "./index.js"
+    "local-webfont": "./index.js"
   },
   "dependencies": {
     "replacestream": "^4.0.3",
